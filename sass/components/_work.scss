@@ -2,6 +2,11 @@
     padding-top: 0;
 }
 
+.work__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .work__img {
     display: block;
     max-width: 100%;
@@ -20,7 +25,7 @@
 }
 
 .work__item {
-    position: relative;
+    position: relative; 
 }
 
 .work__content {
