@@ -1,14 +1,14 @@
-.work-section {
+.work {
     padding-top: 0;
 }
 
-.work-section__img {
+.work__img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.work-section__title {
+.work__title {
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: 700;
@@ -19,11 +19,11 @@
     line-height: 1.2;
 }
 
-.work-section__item--position {
+.work__item {
     position: relative;
 }
 
-.work-section__content {
+.work__content {
     position: absolute;
     z-index: 1;
     display: inline-flex;
@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-.work-section__text {
+.work__text {
     padding: 0;
     margin: 0;
     font-weight: 700;
@@ -46,6 +46,6 @@
     color: $white-color;
 }
 
-.work-section__item+.work-section__item {
+.work__item+.work__item {
     margin-left: 30px;
 }
