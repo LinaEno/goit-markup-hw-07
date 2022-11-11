@@ -1,3 +1,41 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #757575;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3, h4,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -22,17 +60,6 @@
   align-items: center;
 }
 
-.nav-menu {
-  display: flex;
-  align-items: center;
-}
-
-.nav-menu__list {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-
 .nav-menu__logo {
   display: block;
   padding-top: 24px;
@@ -47,6 +74,34 @@
 }
 .nav-menu__logo--accent {
   color: #2196f3;
+}
+
+.footer__logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+}
+.footer__logo--accent {
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu__list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 
 .nav-menu__item + .nav-menu__item {
@@ -117,13 +172,8 @@
   background-position: center;
 }
 
-.hero__content {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 696px;
-}
-
 .hero__title {
+  margin: 0 auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -131,6 +181,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  max-width: 696px;
 }
 
 .hero__button {
@@ -311,7 +362,7 @@
 .team-about__list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0px 32px;
+  padding: 0px 32px;
 }
 
 .team-about__link {
@@ -413,23 +464,6 @@
 }
 .address__link:hover, .address__link:focus {
   color: #2196f3;
-}
-
-.footer__logo {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-right: 0;
-  padding: 0;
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  font-family: "Raleway", sans-serif;
-  line-height: 1.2;
-}
-.footer__logo--accent {
-  color: #ffffff;
 }
 
 .social {
@@ -658,6 +692,10 @@
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: #757575;
+}
+
+.callback__checkbox-label {
+  cursor: pointer;
 }
 
 .callback__icon {

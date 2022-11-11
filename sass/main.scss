@@ -1,9 +1,10 @@
-@import './utils/basic';
 @import './utils/_variables';
+@import './utils/basic';
 @import './utils/mixins';
 @import './components/_container';
 @import './components/_section';
 @import './components/_page-header';
+@import './components/logo';
 @import './components/_nav-menu';
 @import './components/_hero';
 @import './components/_quality';

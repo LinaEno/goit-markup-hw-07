@@ -9,22 +9,6 @@
     align-items: center;
 }
 
-.nav-menu__logo {
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em;
-    color: $black-color;
-    font-family: $font-family-logo;
-    line-height: 1.2;
-    &--accent {
-        color: $accent-color;
-    }
-}
-
 .nav-menu__item+.nav-menu__item {
     margin-left: 50px;
 }
